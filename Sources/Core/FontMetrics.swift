@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 /// A `UIFontMetrics` wrapper, allowing iOS 11 devices to take advantage of `UIFontMetrics` scaling,
@@ -57,3 +58,4 @@ public struct FontMetrics {
         }
     }
 }
+#endif

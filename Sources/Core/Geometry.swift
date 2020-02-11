@@ -1,4 +1,8 @@
+#if os(macOS)
+import AppKit
+#else
 import UIKit
+#endif
 
 public extension CGSize {
     /// Rounds width and height based on the given rule

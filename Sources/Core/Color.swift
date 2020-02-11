@@ -1,6 +1,12 @@
+#if os(macOS)
+import AppKit
+public typealias Color = NSColor
+#else
 import UIKit
+public typealias Color = UIColor
+#endif
 
-public extension UIColor {
+public extension Color {
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
         assert(green >= 0 && green <= 255, "Invalid green component")
@@ -18,21 +24,21 @@ public extension UIColor {
     }
 }
 
-public extension UIColor {
-    func lighten(by percentage: CGFloat = 0.2) -> UIColor {
+public extension Color {
+    func lighten(by percentage: CGFloat = 0.2) -> Color {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return UIColor(red: min(r + percentage, 1.0), green: min(g + percentage, 1.0), blue: min(b + percentage, 1.0), alpha: a)
+        return Color(red: min(r + percentage, 1.0), green: min(g + percentage, 1.0), blue: min(b + percentage, 1.0), alpha: a)
     }
 
-    func darken(by percentage: CGFloat = 0.2) -> UIColor {
+    func darken(by percentage: CGFloat = 0.2) -> Color {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return UIColor(red: max(r - percentage, 0), green: max(g - percentage, 0), blue: max(b - percentage, 0), alpha: a)
+        return Color(red: max(r - percentage, 0), green: max(g - percentage, 0), blue: max(b - percentage, 0), alpha: a)
     }
 }
 
-public extension UIColor {
+public extension Color {
     convenience init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
