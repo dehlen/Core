@@ -8,12 +8,14 @@
   - [LateInit](LateInit)
   - [Lazy](Lazy)
   - [LazyConstant](LazyConstant)
+  - [NestedKey](NestedKey)
   - [Reachability](Reachability)
   - [ServiceLocator](ServiceLocator)
   - [ServiceLocator.Error](ServiceLocator_Error)
 
 # Protocols
 
+  - [NestableCodingKey](NestableCodingKey)
   - [TypedNotification](TypedNotification)
   - [TypedNotificationCenter](TypedNotificationCenter)
 

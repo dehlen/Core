@@ -25,8 +25,9 @@ import Foundation
  ~~~
 */
 @propertyWrapper
-struct NestedKey<T: Decodable>: Decodable {
-    var wrappedValue: T
+public struct NestedKey<T: Decodable>: Decodable {
+    public var wrappedValue: T
+    
     struct AnyCodingKey: CodingKey {
         let stringValue: String
         let intValue: Int?
@@ -39,7 +40,8 @@ struct NestedKey<T: Decodable>: Decodable {
             self.intValue = intValue
         }
     }
-    init(from decoder: Decoder) throws {
+    
+    public init(from decoder: Decoder) throws {
         let key = decoder.codingPath.last!
         guard let nestedKey = key as? NestableCodingKey else {
             throw DecodingError.keyNotFound(key, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Key \(key) is not a NestableCodingKey"))
@@ -79,11 +81,11 @@ struct NestedKey<T: Decodable>: Decodable {
 //: # NestableCodingKey
 /// Use this instead of `CodingKey` to annotate your `enum CodingKeys: String, NestableCodingKey`.
 /// Use a `/` to separate the components of the path to nested keys
-protocol NestableCodingKey: CodingKey {
+public protocol NestableCodingKey: CodingKey {
     var path: [String] { get }
 }
 
-extension NestableCodingKey where Self: RawRepresentable, Self.RawValue == String {
+public extension NestableCodingKey where Self: RawRepresentable, Self.RawValue == String {
     init?(stringValue: String) {
         self.init(rawValue: stringValue)
     }
