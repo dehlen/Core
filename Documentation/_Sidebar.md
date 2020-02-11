@@ -26,6 +26,13 @@
 </details>
 
 <details open>
+<summary>Global Typealiases</summary>
+
+  - [Color](Color)
+
+</details>
+
+<details open>
 <summary>Operators</summary>
 
   - [callOnMain(\_:)](callOnMain\(_:\))

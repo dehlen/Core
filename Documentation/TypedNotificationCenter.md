@@ -1,5 +1,7 @@
 # TypedNotificationCenter
 
+Generic protocol for a type safe notification center
+
 ``` swift
 public protocol TypedNotificationCenter
 ```

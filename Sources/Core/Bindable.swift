@@ -1,4 +1,7 @@
-/** Use like:
+/**
+ Simple Generic type to bind a variable to another by hiding the Observer pattern as an implementation detail.
+ 
+ Use like:
  ```
  struct User {
     let name: String

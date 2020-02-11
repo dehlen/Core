@@ -1,5 +1,6 @@
 import Foundation
 
+/// Protocol for a type sage notification
 public protocol TypedNotification {
     associatedtype Sender
     static var name: String { get }
@@ -12,6 +13,7 @@ public extension TypedNotification {
     }
 }
 
+/// Generic protocol for a type safe notification center
 public protocol TypedNotificationCenter {
     func post<N : TypedNotification>(_ notification: N)
     func addObserver<N : TypedNotification>(_ forType: N.Type, sender: N.Sender?,
@@ -21,13 +23,15 @@ public protocol TypedNotificationCenter {
 extension NotificationCenter: TypedNotificationCenter {
     static var typedNotificationUserInfoKey = "_TypedNotification"
 
-    public func post<N>(_ notification: N) where N : TypedNotification {
+    /// Post a TypedNotification
+    public func post<N>(_ notification: N) where N: TypedNotification {
         post(name: N.notificationName, object: notification.sender,
              userInfo: [
                 NotificationCenter.typedNotificationUserInfoKey : notification
         ])
     }
 
+    /// Add an observer for a TypedNotification
     public func addObserver<N>(_ forType: N.Type, sender: N.Sender?, queue: OperationQueue?, using block: @escaping (N) -> Void) -> NSObjectProtocol where N : TypedNotification {
         return addObserver(forName: N.notificationName, object: sender, queue: queue) { n in
             guard let typedNotification = n.userInfo?[NotificationCenter.typedNotificationUserInfoKey] as? N else {

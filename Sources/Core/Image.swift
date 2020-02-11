@@ -2,6 +2,7 @@
 import UIKit
 
 public extension UIImage {
+    /// Creates an image with the given size
     func imageWith(newSize: CGSize) -> UIImage {
         let renderer = UIGraphicsImageRenderer(size: newSize)
         let image = renderer.image { _ in
@@ -10,6 +11,7 @@ public extension UIImage {
         return image
     }
     
+    /// Creates an image with the given color of size 1x1
     static func with(color: UIColor) -> UIImage {
         let size = CGSize(width: 1, height: 1)
         let renderer = UIGraphicsImageRenderer(size: size)
@@ -19,6 +21,7 @@ public extension UIImage {
         }
     }
 
+    /// Tints the image with the given color
     func tint(color: UIColor) -> UIImage {
         let maskImage = cgImage
         let bounds = CGRect(origin: .zero, size: size)

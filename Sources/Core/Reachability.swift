@@ -1,6 +1,7 @@
 import SystemConfiguration
 
 public class Reachability {
+    /// Returns whether the application is currently connected to the network or not
     func isConnectedToNetwork() -> Bool {
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(MemoryLayout<sockaddr_in>.size)

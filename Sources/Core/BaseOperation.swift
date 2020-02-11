@@ -1,5 +1,7 @@
 import Foundation
 /**
+Subclass of Operation to add basic functionality like async operations.
+ 
 Use like:
 ```
 import Foundation
@@ -68,7 +70,7 @@ public class Importer {
 }
 ```
 */
-public class BaseOperation : Operation {
+public class BaseOperation: Operation {
     public override var isAsynchronous: Bool {
         return true
     }

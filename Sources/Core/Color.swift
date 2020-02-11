@@ -25,12 +25,24 @@ public extension Color {
 }
 
 public extension Color {
+    /// Lightens a color by percentage
+    ///
+    /// - Parameters:
+    ///   - percentage: Percentage the color should be lighter
+    /// - Returns: The new color
+    ///
     func lighten(by percentage: CGFloat = 0.2) -> Color {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
         return Color(red: min(r + percentage, 1.0), green: min(g + percentage, 1.0), blue: min(b + percentage, 1.0), alpha: a)
     }
 
+    /// Darkens a color by percentage
+    ///
+    /// - Parameters:
+    ///   - percentage: Percentage the color should be darker
+    /// - Returns: The new color
+    ///
     func darken(by percentage: CGFloat = 0.2) -> Color {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
@@ -39,6 +51,11 @@ public extension Color {
 }
 
 public extension Color {
+    /// Create a color by a hex string
+    ///
+    /// - Parameters:
+    ///   - hex: The hex string of the color. Should be 6 or 8 digits long
+    ///
     convenience init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
@@ -74,6 +91,7 @@ public extension Color {
         self.init(red: r, green: g, blue: b, alpha: a)
     }
 
+    /// The hex representation of the color
     var hex: String? {
         return toHex()
     }

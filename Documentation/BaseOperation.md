@@ -1,10 +1,12 @@
 # BaseOperation
 
-Use like:
+Subclass of Operation to add basic functionality like async operations.
 
 ``` swift
 public class BaseOperation: Operation
 ```
+
+Use like:
 
 ``` 
 import Foundation

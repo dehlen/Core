@@ -1,5 +1,6 @@
 import Foundation
 
+/// Throttle the execution of some function
 class Throttler {
     private var workItem: DispatchWorkItem = DispatchWorkItem(block: {})
     private var previousRun: Date = Date.distantPast
@@ -11,6 +12,8 @@ class Throttler {
         self.queue = queue
     }
 
+    /// The given block will be throttled and is called only every `minimumDelay` on the given `queue`.
+    /// Default is the main queue
     func throttle(_ block: @escaping () -> Void) {
         workItem.cancel()
 

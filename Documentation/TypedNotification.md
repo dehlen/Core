@@ -1,5 +1,7 @@
 # TypedNotification
 
+Protocol for a type sage notification
+
 ``` swift
 public protocol TypedNotification
 ```

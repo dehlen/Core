@@ -24,3 +24,9 @@
   - [callOnMain(\_:)](callOnMain\(_:\))
   - [rearrange(array:fromIndex:toIndex:)](rearrange\(array:fromIndex:toIndex:\))
   - [with(\_:update:)](with\(_:update:\))
+
+# Globals
+
+## Typealiases
+
+  - [Color](Color)

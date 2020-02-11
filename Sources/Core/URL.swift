@@ -93,7 +93,7 @@ public extension URL {
     }
 }
 
-extension URL {
+public extension URL {
     /**
     Check if the file conforms to the given type identifier
 
