@@ -15,6 +15,7 @@
 
 # Protocols
 
+  - [KeyPathUpdatable](KeyPathUpdatable)
   - [NestableCodingKey](NestableCodingKey)
   - [TypedNotification](TypedNotification)
   - [TypedNotificationCenter](TypedNotificationCenter)

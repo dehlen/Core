@@ -19,6 +19,7 @@
 <details open>
 <summary>Protocols</summary>
 
+  - [KeyPathUpdatable](KeyPathUpdatable)
   - [NestableCodingKey](NestableCodingKey)
   - [TypedNotification](TypedNotification)
   - [TypedNotificationCenter](TypedNotificationCenter)
