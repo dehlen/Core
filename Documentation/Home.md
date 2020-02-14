@@ -30,4 +30,4 @@
 
 ## Typealiases
 
-  - [Color](Color)
+  - [XColor](XColor)

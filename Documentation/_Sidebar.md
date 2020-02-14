@@ -29,7 +29,7 @@
 <details open>
 <summary>Global Typealiases</summary>
 
-  - [Color](Color)
+  - [XColor](XColor)
 
 </details>
 

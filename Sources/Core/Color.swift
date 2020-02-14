@@ -1,12 +1,12 @@
 #if os(macOS)
 import AppKit
-public typealias Color = NSColor
+public typealias XColor = NSColor
 #else
 import UIKit
-public typealias Color = UIColor
+public typealias XColor = UIColor
 #endif
 
-public extension Color {
+public extension XColor {
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
         assert(green >= 0 && green <= 255, "Invalid green component")
@@ -24,17 +24,17 @@ public extension Color {
     }
 }
 
-public extension Color {
+public extension XColor {
     /// Lightens a color by percentage
     ///
     /// - Parameters:
     ///   - percentage: Percentage the color should be lighter
     /// - Returns: The new color
     ///
-    func lighten(by percentage: CGFloat = 0.2) -> Color {
+    func lighten(by percentage: CGFloat = 0.2) -> XColor {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return Color(red: min(r + percentage, 1.0), green: min(g + percentage, 1.0), blue: min(b + percentage, 1.0), alpha: a)
+        return XColor(red: min(r + percentage, 1.0), green: min(g + percentage, 1.0), blue: min(b + percentage, 1.0), alpha: a)
     }
 
     /// Darkens a color by percentage
@@ -43,14 +43,14 @@ public extension Color {
     ///   - percentage: Percentage the color should be darker
     /// - Returns: The new color
     ///
-    func darken(by percentage: CGFloat = 0.2) -> Color {
+    func darken(by percentage: CGFloat = 0.2) -> XColor {
         var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return Color(red: max(r - percentage, 0), green: max(g - percentage, 0), blue: max(b - percentage, 0), alpha: a)
+        return XColor(red: max(r - percentage, 0), green: max(g - percentage, 0), blue: max(b - percentage, 0), alpha: a)
     }
 }
 
-public extension Color {
+public extension XColor {
     /// Create a color by a hex string
     ///
     /// - Parameters:
