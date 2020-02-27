@@ -1,0 +1,705 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Application/AppMigration.swift",
+      "line": 30,
+      "symbol": "AppMigration.suiteName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Application/AppMigration.swift",
+      "line": 38,
+      "symbol": "AppMigration.init(userDefaults:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/BaseOperation.swift",
+      "line": 74,
+      "symbol": "BaseOperation.isAsynchronous",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/BaseOperation.swift",
+      "line": 87,
+      "symbol": "BaseOperation.isExecuting",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/BaseOperation.swift",
+      "line": 101,
+      "symbol": "BaseOperation.isFinished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/BaseOperation.swift",
+      "line": 105,
+      "symbol": "BaseOperation.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Bindable.swift",
+      "line": 38,
+      "symbol": "Bindable.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Bindable.swift",
+      "line": 62,
+      "symbol": "Bindable.update(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Bindable.swift",
+      "line": 69,
+      "symbol": "Bindable.bind(_:to:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Bindable.swift",
+      "line": 80,
+      "symbol": "Bindable.bind(_:to:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Bindable.swift",
+      "line": 94,
+      "symbol": "Bindable.bind(_:to:_:transform:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Collections/Array2D.swift",
+      "line": 3,
+      "symbol": "Array2D",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 3,
+      "symbol": "XColor",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 9,
+      "symbol": "XColor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 10,
+      "symbol": "XColor.init(red:green:blue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 18,
+      "symbol": "XColor.init(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 27,
+      "symbol": "XColor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Color.swift",
+      "line": 53,
+      "symbol": "XColor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 23,
+      "symbol": "Default.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 25,
+      "symbol": "Default.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 29,
+      "symbol": "Default.init(wrappedValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 47,
+      "symbol": "KeyedDecodingContainer.decode(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 57,
+      "symbol": "KeyedEncodingContainer.encode(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 63,
+      "symbol": "DefaultValueProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 64,
+      "symbol": "DefaultValueProvider.Value",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 66,
+      "symbol": "DefaultValueProvider.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 69,
+      "symbol": "False",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 70,
+      "symbol": "False.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 73,
+      "symbol": "True",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 74,
+      "symbol": "True.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 77,
+      "symbol": "Empty",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 78,
+      "symbol": "Empty.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 81,
+      "symbol": "FirstCase",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 82,
+      "symbol": "FirstCase.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 85,
+      "symbol": "Zero",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 86,
+      "symbol": "Zero.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 89,
+      "symbol": "One",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
+      "line": 90,
+      "symbol": "One.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 15,
+      "symbol": "CGRect.init(origin:width:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 19,
+      "symbol": "CGRect.init(widthHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 25,
+      "symbol": "CGRect.x",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 34,
+      "symbol": "CGRect.y",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 54,
+      "symbol": "CGRect.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 65,
+      "symbol": "CGRect.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 74,
+      "symbol": "CGRect.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 83,
+      "symbol": "CGRect.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 92,
+      "symbol": "CGRect.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 103,
+      "symbol": "CGRect.center",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 115,
+      "symbol": "CGRect.centerX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 124,
+      "symbol": "CGRect.centerY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 161,
+      "symbol": "CGSize.*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 165,
+      "symbol": "CGSize.*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 169,
+      "symbol": "CGSize.init(widthHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 173,
+      "symbol": "CGSize.cgRect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 177,
+      "symbol": "CGSize.aspectFit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Geometry.swift",
+      "line": 182,
+      "symbol": "CGSize.aspectFit(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/KeyPathUpdatable.swift",
+      "line": 3,
+      "symbol": "KeyPathUpdatable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/KeyPathUpdatable.swift",
+      "line": 5,
+      "symbol": "KeyPathUpdatable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/LateInit.swift",
+      "line": 26,
+      "symbol": "LateInit.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/LateInit.swift",
+      "line": 30,
+      "symbol": "LateInit.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Lazy.swift",
+      "line": 30,
+      "symbol": "Lazy.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/LazyConstant.swift",
+      "line": 34,
+      "symbol": "LazyConstant.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
+      "line": 29,
+      "symbol": "NestedKey.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
+      "line": 85,
+      "symbol": "NestableCodingKey.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
+      "line": 101,
+      "symbol": "NestableCodingKey.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Reachability.swift",
+      "line": 3,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 3,
+      "symbol": "ServiceLocator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 5,
+      "symbol": "ServiceLocator.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 6,
+      "symbol": "ServiceLocator.Error.duplicateService(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 7,
+      "symbol": "ServiceLocator.Error.duplicateLazyService(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 8,
+      "symbol": "ServiceLocator.Error.inexistentService",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 9,
+      "symbol": "ServiceLocator.Error.serviceTypeMismatch(expected:found:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 10,
+      "symbol": "ServiceLocator.Error.lazyServiceTypeMismatch(expected:found:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 13,
+      "symbol": "ServiceLocator.ServiceName",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 14,
+      "symbol": "ServiceLocator.LazyInit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 21,
+      "symbol": "ServiceLocator.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 30,
+      "symbol": "ServiceLocator.register(name:service:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 42,
+      "symbol": "ServiceLocator.register(name:lazyService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 54,
+      "symbol": "ServiceLocator.unregister(_:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 65,
+      "symbol": "ServiceLocator.unregisterAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/ServiceLocator.swift",
+      "line": 71,
+      "symbol": "ServiceLocator.get(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 5,
+      "symbol": "TypedNotification.Sender",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 6,
+      "symbol": "TypedNotification.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 7,
+      "symbol": "TypedNotification.sender",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 11,
+      "symbol": "TypedNotification.notificationName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 18,
+      "symbol": "TypedNotificationCenter.post(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/TypedNotifications.swift",
+      "line": 19,
+      "symbol": "TypedNotificationCenter.addObserver(_:sender:queue:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 5,
+      "symbol": "URL.directoryURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 9,
+      "symbol": "URL.directory",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 13,
+      "symbol": "URL.filename",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 23,
+      "symbol": "URL.fileExtension",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 33,
+      "symbol": "URL.filenameWithoutExtension",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 45,
+      "symbol": "URL.changingFileExtension(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 51,
+      "symbol": "URL.addingDictionaryAsQuery(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 83,
+      "symbol": "URL.fileSizeFormatted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 87,
+      "symbol": "URL.exists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 91,
+      "symbol": "URL.isReadable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 133,
+      "symbol": "Dictionary.asQueryItems",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 142,
+      "symbol": "Dictionary.asQueryString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/URL.swift",
+      "line": 151,
+      "symbol": "URLComponents.addDictionaryAsQuery(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/d0283356/Downloads/Libraries/Core"
+}
