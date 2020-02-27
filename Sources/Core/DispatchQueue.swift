@@ -25,3 +25,7 @@ public extension DispatchQueue {
         asyncAfter(deadline: .now() + duration, execute: execute)
     }
 }
+
+extension DispatchQueue {
+    static let labelPrefix = "com.davidehlen.Core"
+}
