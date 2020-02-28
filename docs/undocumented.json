@@ -78,6 +78,258 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DateValue.swift",
+      "line": 7,
+      "symbol": "DateValueCodableStrategy.RawValue",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DateValue.swift",
+      "line": 9,
+      "symbol": "DateValueCodableStrategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DateValue.swift",
+      "line": 10,
+      "symbol": "DateValueCodableStrategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DateValue.swift",
+      "line": 19,
+      "symbol": "DateValue.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DateValue.swift",
+      "line": 21,
+      "symbol": "DateValue.init(wrappedValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultCodable.swift",
+      "line": 5,
+      "symbol": "DefaultCodableStrategy.RawValue",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultCodable.swift",
+      "line": 7,
+      "symbol": "DefaultCodableStrategy.defaultValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultCodable.swift",
+      "line": 15,
+      "symbol": "DefaultCodable.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultCodable.swift",
+      "line": 17,
+      "symbol": "DefaultCodable.init(wrappedValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultEmptyArray.swift",
+      "line": 1,
+      "symbol": "DefaultEmptyArrayStrategy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultEmptyArray.swift",
+      "line": 2,
+      "symbol": "DefaultEmptyArrayStrategy.defaultValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultEmptyDictionary.swift",
+      "line": 1,
+      "symbol": "DefaultEmptyDictionaryStrategy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultEmptyDictionary.swift",
+      "line": 2,
+      "symbol": "DefaultEmptyDictionaryStrategy.defaultValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultFalse.swift",
+      "line": 1,
+      "symbol": "DefaultFalseStrategy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultFalse.swift",
+      "line": 2,
+      "symbol": "DefaultFalseStrategy.defaultValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultTrue.swift",
+      "line": 1,
+      "symbol": "DefaultTrueStrategy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/DefaultTrue.swift",
+      "line": 2,
+      "symbol": "DefaultTrueStrategy.defaultValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/ISO8601Strategy.swift",
+      "line": 9,
+      "symbol": "ISO8601Strategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/ISO8601Strategy.swift",
+      "line": 16,
+      "symbol": "ISO8601Strategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LosslessValue.swift",
+      "line": 3,
+      "symbol": "LosslessStringCodable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LosslessValue.swift",
+      "line": 14,
+      "symbol": "LosslessValue.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LossyArray.swift",
+      "line": 18,
+      "symbol": "LossyArray.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LossyArray.swift",
+      "line": 20,
+      "symbol": "LossyArray.init(wrappedValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LossyDictionary.swift",
+      "line": 33,
+      "symbol": "LossyDictionary.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/LossyDictionary.swift",
+      "line": 35,
+      "symbol": "LossyDictionary.init(wrappedValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/NestableCodingKey.swift",
+      "line": 29,
+      "symbol": "NestedKey.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/NestableCodingKey.swift",
+      "line": 85,
+      "symbol": "NestableCodingKey.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/NestableCodingKey.swift",
+      "line": 101,
+      "symbol": "NestableCodingKey.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/RFC2822Strategy.swift",
+      "line": 18,
+      "symbol": "RFC2822Strategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/RFC2822Strategy.swift",
+      "line": 26,
+      "symbol": "RFC2822Strategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/RFC3339Strategy.swift",
+      "line": 17,
+      "symbol": "RFC3339Strategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/RFC3339Strategy.swift",
+      "line": 25,
+      "symbol": "RFC3339Strategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/TimestampStrategy.swift",
+      "line": 9,
+      "symbol": "TimestampStrategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/TimestampStrategy.swift",
+      "line": 13,
+      "symbol": "TimestampStrategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/YearMonthDayStrategy.swift",
+      "line": 17,
+      "symbol": "YearMonthDayStrategy.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Codable/YearMonthDayStrategy.swift",
+      "line": 25,
+      "symbol": "YearMonthDayStrategy.encode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/Collections/Array2D.swift",
       "line": 3,
       "symbol": "Array2D",
@@ -124,146 +376,6 @@
       "line": 53,
       "symbol": "XColor",
       "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 23,
-      "symbol": "Default.wrappedValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 25,
-      "symbol": "Default.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 29,
-      "symbol": "Default.init(wrappedValue:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 47,
-      "symbol": "KeyedDecodingContainer.decode(_:forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 57,
-      "symbol": "KeyedEncodingContainer.encode(_:forKey:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 63,
-      "symbol": "DefaultValueProvider",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 64,
-      "symbol": "DefaultValueProvider.Value",
-      "symbol_kind": "source.lang.swift.decl.associatedtype",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 66,
-      "symbol": "DefaultValueProvider.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 69,
-      "symbol": "False",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 70,
-      "symbol": "False.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 73,
-      "symbol": "True",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 74,
-      "symbol": "True.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 77,
-      "symbol": "Empty",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 78,
-      "symbol": "Empty.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 81,
-      "symbol": "FirstCase",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 82,
-      "symbol": "FirstCase.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 85,
-      "symbol": "Zero",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 86,
-      "symbol": "Zero.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 89,
-      "symbol": "One",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/DefaultCodable.swift",
-      "line": 90,
-      "symbol": "One.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
@@ -431,27 +543,6 @@
       "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/LazyConstant.swift",
       "line": 34,
       "symbol": "LazyConstant.wrappedValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
-      "line": 29,
-      "symbol": "NestedKey.wrappedValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
-      "line": 85,
-      "symbol": "NestableCodingKey.path",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/d0283356/Downloads/Libraries/Core/Sources/Core/NestableCodingKey.swift",
-      "line": 101,
-      "symbol": "NestableCodingKey.path",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
