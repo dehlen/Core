@@ -1,11 +1,3 @@
-//
-//  CurrencyFormatter.swift
-//  ZamzamKit
-//
-//  Created by Basem Emara on 2018-11-24.
-//  Copyright © 2018 Zamzam Inc. All rights reserved.
-//
-
 import Foundation
 
 /// A formatter that converts between monetary values and their textual representations.
