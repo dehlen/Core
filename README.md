@@ -1,6 +1,8 @@
 # Core
 <img src="https://img.shields.io/badge/supports-Swift%20Package%20Manager-green.svg">
 <img src="./docs/badge.svg">
+<img src="https://img.shields.io/badge/Swift-5-orange">
+<img src="https://img.shields.io/badge/Platforms-iOS | macOS-lightgrey">
 
 This package implements various helper classes and extensions to simplify development.
 
