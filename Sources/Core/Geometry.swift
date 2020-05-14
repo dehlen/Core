@@ -40,25 +40,25 @@ public extension CGRect {
         }
     }
 
-    /// `width` and `height` are defined in Foundation as getters only. We add support for setters too.
-    /// These will not work when imported as a framework: https://bugs.swift.org/browse/SR-4017
-    var width: CGFloat {
-        get {
-            return size.width
-        }
-        set {
-            size.width = newValue
-        }
-    }
-
-    var height: CGFloat {
-        get {
-            return size.height
-        }
-        set {
-            size.height = newValue
-        }
-    }
+//    /// `width` and `height` are defined in Foundation as getters only. We add support for setters too.
+//    /// These will not work when imported as a framework: https://bugs.swift.org/browse/SR-4017
+//    var width: CGFloat {
+//        get {
+//            return size.width
+//        }
+//        set {
+//            size.width = newValue
+//        }
+//    }
+//
+//    var height: CGFloat {
+//        get {
+//            return size.height
+//        }
+//        set {
+//            size.height = newValue
+//        }
+//    }
 
     // MARK: - Edges
 
